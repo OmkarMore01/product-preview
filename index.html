@@ -31,17 +31,21 @@
             box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
             cursor: pointer;            
         }
+        .heading{
+            text-align: center;
+        }
     </style>
 </head>
 <body>
-    <img src="./img/1.jpg" alt="image not found" id="product-main-image"  />
+    <h1 class="heading">HP Victus Gaming Laptop</h1>
+    <img src="./img/hp6.png" alt="image not found" id="product-main-image"  />
     <div class="images-container">
-        <img src="./img/1.jpg" alt="image not found" class="product-image" onclick="change('1')" />
-        <img src="./img/2.jpg" alt="image not found" class="product-image" onclick="change('2')" />
-        <img src="./img/3.jpg" alt="image not found" class="product-image" onclick="change('3')" />
-        <img src="./img/4.jpg" alt="image not found" class="product-image" onclick="change('4')" />
-        <img src="./img/5.jpg" alt="image not found" class="product-image" onclick="change('5')" />
-        <img src="./img/6.jpg" alt="image not found" class="product-image" onclick="change('6')" />
+        <img src="./img/hp main.jpg" alt="image not found" class="product-image" onclick="change('1')" />
+        
+        <img src="./img/hp2.jpg" alt="image not found" class="product-image" onclick="change('3')" />
+        <img src="./img/hp3.jpg" alt="image not found" class="product-image" onclick="change('4')" />
+        <img src="./img/hp4.jpg" alt="image not found" class="product-image" onclick="change('5')" />
+        <img src="./img/hp5.jpg" alt="image not found" class="product-image" onclick="change('6')" />
     </div>
 
     <script>
@@ -51,27 +55,24 @@
             
             if(path==1)
             {
-                imgElement.src = "./img/1.jpg";
+                imgElement.src = "./img/hp main.jpg";
             }
-            else if(path==2)
-            {
-                imgElement.src = "./img/2.jpg";
-            }
+           
             else if(path==3)
             {
-                imgElement.src = "./img/3.jpg";
+                imgElement.src = "./img/hp2.jpg";
             }
             else if(path==4)
             {
-                imgElement.src = "./img/4.jpg";
+                imgElement.src = "./img/hp3.jpg";
             }
             else if(path==5)
             {
-                imgElement.src = "./img/5.jpg";
+                imgElement.src = "./img/hp4.jpg";
             }
             else if(path==6)
             {
-                imgElement.src = "./img/6.jpg";
+                imgElement.src = "./img/hp5.jpg";
             }
         }
 
